@@ -503,3 +503,99 @@
     letter-spacing: 1px;
     box-shadow: none;
 }
+.full-width {
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width */
+    padding: 0 15px; /* Optional: Adds some padding on the left and right for better spacing */
+    margin: 0 auto; /* Centers the div horizontally */
+}
+
+.full-width ul {
+    list-style: none; /* Removes default list styling */
+    padding: 0;
+}
+
+.full-width li {
+    margin-bottom: 10px; /* Adds some space between list items */
+}
+
+.full-width .section-title {
+    font-size: 1.5em; /* Adjusts the size of the section title */
+    color: #007bff; /* Primary color for text */
+}
+
+.full-width h1 {
+    font-size: 2.5em; /* Adjusts the size of the main heading */
+    margin-bottom: 20px;
+}
+
+.full-width p {
+    font-size: 1em; /* Adjusts the size of paragraphs */
+    margin-bottom: 20px;
+}
+
+.full-width h5 {
+    font-size: 1.25em; /* Adjusts the size of subheadings */
+    margin-bottom: 15px;
+}
+
+.full-width span {
+    display: block; /* Ensures the span element takes up full width */
+}
+
+.full-width .row {
+    display: flex;
+    flex-wrap: wrap; /* Ensures child elements wrap to new lines as needed */
+}
+
+.full-width .col-sm-6 {
+    flex: 1 1 50%; /* Each column takes up 50% of the row's width */
+    box-sizing: border-box; /* Ensures padding and border are included in the column's width */
+    padding: 0 15px; /* Optional: Adds some padding inside the columns */
+}
+
+@media (max-width: 768px) {
+    .full-width .col-sm-6 {
+        flex: 1 1 100%; /* On smaller screens, each column takes up the full width */
+        margin-bottom: 15px; /* Adds some space between rows on smaller screens */
+    }
+}
+.full-width {
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width */
+    padding: 0 15px; /* Optional: Adds some padding on the left and right for better spacing */
+    margin: 0 auto; /* Centers the div horizontally */
+}
+
+.full-width .section-title {
+    font-size: 1.5em; /* Adjusts the size of the section title */
+    color: #007bff; /* Primary color for text */
+}
+
+.full-width h1 {
+    font-size: 2.5em; /* Adjusts the size of the main heading */
+    margin-bottom: 20px;
+}
+
+.full-width p {
+    font-size: 1em; /* Adjusts the size of paragraphs */
+    margin-bottom: 20px;
+}
+
+.full-width .row {
+    display: flex;
+    flex-wrap: wrap; /* Ensures child elements wrap to new lines as needed */
+}
+
+.full-width .col-lg-6 {
+    flex: 1 1 50%; /* Each column takes up 50% of the row's width */
+    box-sizing: border-box; /* Ensures padding and border are included in the column's width */
+    padding: 0 15px; /* Optional: Adds some padding inside the columns */
+}
+
+@media (max-width: 768px) {
+    .full-width .col-lg-6 {
+        flex: 1 1 100%; /* On smaller screens, each column takes up the full width */
+        margin-bottom: 15px; /* Adds some space between rows on smaller screens */
+    }
+}
