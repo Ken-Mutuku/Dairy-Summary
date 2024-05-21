@@ -599,3 +599,8 @@
         margin-bottom: 15px; /* Adds some space between rows on smaller screens */
     }
 }
+.padinini{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+}
